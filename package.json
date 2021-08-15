@@ -1,0 +1,20 @@
+{
+  "name": "urlshortner",
+  "version": "1.0.0",
+  "description": "URL shortening service",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "SOURAV KUMAR SWAIN",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
